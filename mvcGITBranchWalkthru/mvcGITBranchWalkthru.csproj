@@ -136,6 +136,10 @@
     <Compile Include="Migrations\202010191505013_initialDB.designer.cs">
       <DependentUpon>202010191505013_initialDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010191705260_modelUpdate.cs" />
+    <Compile Include="Migrations\202010191705260_modelUpdate.designer.cs">
+      <DependentUpon>202010191705260_modelUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\GitAccount.cs" />
     <Compile Include="Models\GitContext.cs" />
@@ -202,6 +206,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202010191505013_initialDB.resx">
       <DependentUpon>202010191505013_initialDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010191705260_modelUpdate.resx">
+      <DependentUpon>202010191705260_modelUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
